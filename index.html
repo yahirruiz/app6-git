@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Batalla del 5 Mayo</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/batalla1.png','imagenes/puebla2.jpg','imagenes/inicio2.jpg')">
+
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Batalla del 5 de mayo </h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>4 de Mayo</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/4mayo.jpg" width="50%" height="50%">
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>5 de Mayo</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/5mayo.jpg" width="50%" height="50%">
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Ignacio Zaragoza</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/Zaragoza.jpg" width="50%" height="50%">
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class ="ui-first-child ui-last-child">
+<a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Batalla del 4 de Mayo </h2>
+<p>¿Por que se dio esta batalla?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Batalla 5 Mayo </h2>
+<p>Acontecimientos de la batalla</p>
+</a>
+</li>
+<li class="ui-first-child ui-first-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Inicio del conflicto</h2>
+<p>Causas que movitaron a la batalla</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Monumentos de la batalla y/o museos que existen sobre el tema</h2>
+<p>lugares importantes  </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Heroes de la batalla</h2>
+<P> Personajes importantes que participaron en la batalla</P>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bandera.ico" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion Seis</h4>
+<h4>Ruiz Mendez Yahir</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="page1" data-add-back-btn="true"  data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> Batalla del 4 de Mayo </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<H2>¿Por que se dio esta batalla?</H2>
+<p>La batalla del 4 de mayo de 1862 en Atlixco contra los franceses permitió, un día después, la gloria del escuadrón militar de Ignacio Zaragoza, aunque no fue un conflicto político, sino de sobrevivencia lo que dio entrada al combate suscitado en el municipio ubicado a menos de una hora de la capitalLa llegada de los franceses a México por la ruptura de los tratados de La Soledad dio entrada el 28 de abril a la batalla de Acultzingo, una guerra de un par de horas.
+En aquella época, el general Manuel Vicente Ramón Doblado.
+
+Partida (1818-1865) buscaba una estrategia para reconciliar los conflictos económicos entre México y Francia. En tanto, los conservadores tenían una tropa en el eje Atlixco-Matamoros-Chautla..</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/puebla2.jpg',1)"><img src="imagenes/puebla1.jpg" name="Image27" width="50%" height="40%" border="0"></a></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bandera.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Seis Ruiz Mendez Yahir</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<H1>Batalla 5 Mayo</H1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Acontecimientos de la batalla</h2>
+<p>n 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares y a la Iglesia los privilegios que habían perdido con las Leyes de Reforma. Benito Juárez, gobernador de Oaxaca al momento del conflicto, representaba a los liberales y  Ignacio Comonfort, presidente de la República, representaba a los conservadores. Despues de 3 años, a principio del año 1961, los liberales ganaron la guerra y el Presidente Benito Juárez instauró su gobierno en la Ciudad de México.
+
+Pero despues de 3 años de conflicto, México está  financieramente en ruinas y tiene deudas enormes que los conservadores contrataron con banqueros europeos para  pagar la guerra. La deuda era de 80 millones de pesos; 69 millones para los ingleses, 9 millones para los españoles y 2 millones para FranciaEl día 5 de mayo de 1862, tras una de las más duras batallas de la historia, la cual duró desde el amanecer a la tarde, los franceses terminaron por retirarse. El saldo fue de más de 500 bajas en las líneas francesas contra apenas unas 100 en las mexicanas.
+
+Éste hecho se convirtió en un fuerte símbolo de la resistencia y del poder mexicano, representando justamente una victoria simbólica contra los grandes imperios.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/batalla1.png',1)"><img src="imagenes/batalla2.jpg" width="60%" height="50%%" id="Image9"></a>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bandera.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Seis Ruiz Mendez Yahir</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Inicio del conflicto</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Causas que movitaron a la batalla</h2>
+<p>El presidente Benito Juárez declaró el 17 de julio de 1861, una moratoria de dos años en el pago de deudas a prestamistas extranjeros. Posteriormente, en octubre de ese mismo año, Francia, Inglaterra y España acordaron intervenir la República para exigir el pago de sus deudas.
+
+En octubre de 1861, Francia, Inglaterra y España firmaron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México. La Alianza Tripartita amenazó al presidente Benito Juárez con invadir el país si no se saldaba por completo las deudas con los tres países europeos.
+
+Juárez responde con un exhorto para  lograr un arreglo amistoso, en un principio la Alianza Tripartita aceptó el llamado al diálogo.  Sus representantes se reunieron con Manuel Doblado, ministro de Relaciones Exteriores, quien consiguió que Juan Prim, representante español, y Lord John Russell por Inglaterra se retiraran; lograron negociar por la vía diplomática los términos y condiciones en los que se pagaría posteriormente la deuda. Es entonces cuando Juárez creo al Ejército de Oriente y designó al general Ignacio Zaragoza al frente de este.
+
+El 5 de marzo, cuando aún se realizaban las negociaciones, llegó a Veracruz un contingente militar francés bajo el mando de Charles Ferdinand Latrille, conde de Lorencez. A finales de abril, Lorencez se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin de avanzar para  conquistar la Ciudad de México.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/inicio2.jpg',1)"><img src="imagenes/inicio1.jpg" name="Image28" width="50%" height="40%" border="0"></a></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bandera.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Seis Ruiz Mendez Yahir</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Monumentos de la batalla y/o museos que existen sobre el tema</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>lugares importantes</h2>
+<p>Dentro de éste marco, al noreste del zócalo se encuentra un complejo que agrupa diversos espacios para la cultura, educación y recreación; sitio que alberga al “Monumento Emblemático” del 150 Aniversario de la Batalla de Puebla. Al exterior, el parque replantea el primer cuadro de la ciudad ubicando los 11 escenarios urbanos de la Batalla mediante 11 tubos de luz que por la noche iluminarán el espacio. Así mismo, recordarán el número de batallones y compañías que lucharon aquel 5 de mayo en Puebla;  </p>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/caidos.jpg" alt="caidos" title="caidos" id="wows1_0"/></li>
+		<li><img src="data1/images/cartel.jpg" alt="cartel" title="cartel" id="wows1_1"/></li>
+		<li><img src="data1/images/guadalupe.jpg" alt="guadalupe" title="guadalupe" id="wows1_2"/></li>
+		<li><img src="data1/images/loreto.jpg" alt="loreto" title="loreto" id="wows1_3"/></li>
+		<li><img src="data1/images/museo.jpg" alt="museo" title="museo" id="wows1_4"/></li>
+		<li><img src="data1/images/parque.jpg" alt="parque" title="parque" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/zacapoaxtla.jpg" alt="wowslideshow" title="zacapoaxtla" id="wows1_6"/></a></li>
+		<li><img src="data1/images/zaragoza.jpg" alt="Zaragoza" title="Zaragoza" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="caidos"><span><img src="data1/tooltips/caidos.jpg" alt="caidos"/>1</span></a>
+		<a href="#" title="cartel"><span><img src="data1/tooltips/cartel.jpg" alt="cartel"/>2</span></a>
+		<a href="#" title="guadalupe"><span><img src="data1/tooltips/guadalupe.jpg" alt="guadalupe"/>3</span></a>
+		<a href="#" title="loreto"><span><img src="data1/tooltips/loreto.jpg" alt="loreto"/>4</span></a>
+		<a href="#" title="museo"><span><img src="data1/tooltips/museo.jpg" alt="museo"/>5</span></a>
+		<a href="#" title="parque"><span><img src="data1/tooltips/parque.jpg" alt="parque"/>6</span></a>
+		<a href="#" title="zacapoaxtla"><span><img src="data1/tooltips/zacapoaxtla.jpg" alt="zacapoaxtla"/>7</span></a>
+		<a href="#" title="Zaragoza"><span><img src="data1/tooltips/zaragoza.jpg" alt="Zaragoza"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bandera.ico" width="46" height="46">
+</div>
+<h4>Aplicacion Seis Ruiz Mendez Yahir</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Heroes de la batalla</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<div data-role="main" class="ui-content" align="center">
+<h2>Benito Juarez</h2>
+<p>"El patriotismo no debe medir el tamaño de los sacrificios, sino afrontarlos con resignación y porque, ante la salud de la República, el hombre no debe pensar en sí mismo, ni tener en cuenta sus conveniencias".
+
+Benito Pablo Juárez García nació el 21 de marzo de 1806 en San Pablo Guelatao, de la Sierra de Ixtlán, Oaxaca.
+
+De extracción indígena, habló solamente zapoteco durante gran parte de su niñez, su tío hablaba español y le enseñó el idioma a su sobrino. Hijo de campesinos muy modestos, Marcelino Juárez y Brígida García, quedó huérfano a la edad de tres años. Abandonó su pueblo debido a la pobreza en que vivía fugándose de la casa de su tío el 17 de diciembre de 1818 para dirigirse a Oaxaca.</p>
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class ="ui-first-child ui-last-child">
+<a href="https://www.buscabiografias.com/biografia/verDetalle/683/BenitoJuarez" data-role="button" target="_self">
+<h2>Aqui mas informacion</h2>
+</a>
+</li>
+</ul>
+</div>
+<h2>Porfirio Diaz</h2>
+<p>(José de la Cruz Porfirio Díaz Mori; Oaxaca, 1830 - París, 1915) Del nombre de este militar y estadista mexicano procede la designación de todo un periodo de la historia moderna de México: el Porfiriato (1876-1911). Y el mismo sufijo ya sugiere lo que fue: una férrea dictadura personalista y paternalista que reprimió toda oposición y anuló la libertad de prensa. Poco después, Porfirio Díaz ingresó en el ejército, y su carrera militar fue meteórica. En la guerra de Reforma (1858-1861), conflicto civil en el que se enfrentaron conservadores y liberales, apoyó la causa liberal. La guerra concluyó con la victoria de los liberales y llevó a la presidencia a Benito Juárez (1861); finalizada la contienda, Porfirio Díaz fue ascendido a general y elegido diputado.
+
+Apenas un año más tarde tomó de nuevo las armas contra la invasión francesa (1862-1863) y la coronación de Maximiliano I (1864-1867) como emperador de México. Fue jefe de brigada en Acultzingo en abril de 1862 y ese mismo año participó en la batalla de Cinco de Mayo al lado de Ignacio Zaragoza. En 1867 protagonizó una brillante acción militar en Puebla: tras sitiar la ciudad, realizó un asalto sangriento y rápido contra las tropas del emperador Maximiliano, que se refugiaron en los cerros de Loreto y Guadalupe. </p>
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class ="ui-first-child ui-last-child">
+<a href="https://www.biografiasyvidas.com/biografia/d/diaz_porfirio.htm" data-role="button" target="_self">
+<h2>Aqui mas informacion</h2>
+</a>
+</li>
+</ul>
+</div>
+<h2>Ignacio Zaragoza</h2>
+<p>(Ignacio Zaragoza Seguin; Bahía del Espíritu Santo, Texas, 1829 - Puebla, 1862) Militar mexicano. De ideas progresistas, luchó contra la dictadura de Santa Anna y apoyó a Benito Juárez durante la Guerra de Reforma (1858-1960), contribuyendo decisivamente a la victoria final de los liberales. Dos años después, en los inicios de la invasión francesa de México, obtuvo una brillante victoria en la batalla de Puebla (5 de mayo de 1862), por la que es honrado como héroe nacional; lamentablemente, una enfermedad puso fin a su vida pocos meses después, a los treinta y tres años de edad.</p>
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class ="ui-first-child ui-last-child">
+<a href=https://www.biografiasyvidas.com/biografia/z/zaragoza.htm"" data-role="button" target="_self">
+<h2>Aqui mas informacion</h2>
+</a>
+</li>
+</ul>
+</div>
+<h2>Miguel Negrete Novoa</h2>
+<p>Miguel Negrete Novoa, fue un militar nacido en Tepeaca, Puebla, que siempre fue fiel a sus ideales y por causa de los mismos, la historia le relegó por muchos años de la posición que merece por sus logros en favor de la patria.
+
+De origen humilde, cuando logró posiciones importantes dentro de la milicia, siempre luchó para llevarle justicia a las clases campesinas y los trabajadores urbanos al grado que por ser hijo de campesinos y haber sido también hombre de campo antes de entregarse a las armas, se le considera un precursor agrario de la Revolución Mexicana.
+
+Negrete defendió a la nación por primera vez en 1847, cuando tropas estadounidenses invadieron México. El entonces joven, había ingresado al Ejército a los 19 años en 1843, como soldado raso. A pesar de que los invasores tomaron la capital del país, Negrete formó una guerrilla que combatía a las patrullas que vigilaban el Zócalo.</p>
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class ="ui-first-child ui-last-child">
+<a href="http://www.unionpuebla.mx/articulo/2017/05/03/cultura/el-heroe-de-la-batalla-de-puebla-al-que-la-historia-no-le-hizo-justicia" data-role="button" target="_self">
+<h2>Aqui mas informacion</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bandera.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Seis Ruiz Mendez Yahir</h4>
+</div>
+</div>
+</div>
+</body>
+</html>
+         
+
